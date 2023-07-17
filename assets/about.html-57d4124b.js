@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as a,a as e,b as i}from"./app-ed7422da.js";const o={},c=e("h1",{id:"this-is-new-site",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#this-is-new-site","aria-hidden":"true"},"#"),i(" this is new site")],-1),n=[c];function r(_,d){return s(),a("div",null,n)}const l=t(o,[["render",r],["__file","about.html.vue"]]);export{l as default};

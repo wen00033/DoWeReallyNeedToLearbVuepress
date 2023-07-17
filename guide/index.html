@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Using a layout | Hello VuePress</title><meta name="description" content="Just playing around">
+    <link rel="preload" href="/DoWeReallyNeedToLearbVuepress/assets/style-8b0aa216.css" as="style"><link rel="stylesheet" href="/DoWeReallyNeedToLearbVuepress/assets/style-8b0aa216.css">
+    <link rel="modulepreload" href="/DoWeReallyNeedToLearbVuepress/assets/app-ed7422da.js"><link rel="modulepreload" href="/DoWeReallyNeedToLearbVuepress/assets/index.html-a13cf1cb.js"><link rel="modulepreload" href="/DoWeReallyNeedToLearbVuepress/assets/index.html-d53d55c2.js"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/about.html-cea400fd.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/index.html-870e96fe.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/404.html-60b35caa.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/about.html-57d4124b.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/index.html-bfaa1d97.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/404.html-88cf9fd4.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="container" data-v-50e663e2><header data-v-50e663e2><h1 data-v-50e663e2>Layout&#39;s header</h1></header><main data-v-50e663e2><div data-v-50e663e2><h1 id="here-the-guide-page" tabindex="-1"><a class="header-anchor" href="#here-the-guide-page" aria-hidden="true">#</a> Here the &#39;Guide&#39; page</h1><h2 id="developer-ipsum" tabindex="-1"><a class="header-anchor" href="#developer-ipsum" aria-hidden="true">#</a> Developer Ipsum</h2><ul><li>The trouble with programmers is that you can never tell what a programmer is doing until it’s too late. (Seymour Cray)</li><li>That’s what’s cool about working with computers. They don’t argue, they remember everything, and they don’t drink all your beer. (Paul Leary)</li></ul></div><!----><!-- built-in component that display the index.md  --><!-- <HelloVue /> --></main><footer data-v-50e663e2><p data-v-50e663e2>© 2023 My VuePress Site</p></footer></div><!----><!--]--></div>
+    <script type="module" src="/DoWeReallyNeedToLearbVuepress/assets/app-ed7422da.js" defer></script>
+  </body>
+</html>

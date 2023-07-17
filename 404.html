@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Hello VuePress</title><meta name="description" content="Just playing around">
+    <link rel="preload" href="/DoWeReallyNeedToLearbVuepress/assets/style-8b0aa216.css" as="style"><link rel="stylesheet" href="/DoWeReallyNeedToLearbVuepress/assets/style-8b0aa216.css">
+    <link rel="modulepreload" href="/DoWeReallyNeedToLearbVuepress/assets/app-ed7422da.js"><link rel="modulepreload" href="/DoWeReallyNeedToLearbVuepress/assets/404.html-60b35caa.js"><link rel="modulepreload" href="/DoWeReallyNeedToLearbVuepress/assets/404.html-88cf9fd4.js"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/about.html-cea400fd.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/index.html-870e96fe.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/index.html-a13cf1cb.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/about.html-57d4124b.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/index.html-bfaa1d97.js" as="script"><link rel="prefetch" href="/DoWeReallyNeedToLearbVuepress/assets/index.html-d53d55c2.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/DoWeReallyNeedToLearbVuepress/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/DoWeReallyNeedToLearbVuepress/assets/app-ed7422da.js" defer></script>
+  </body>
+</html>
